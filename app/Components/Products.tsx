@@ -1,4 +1,3 @@
-import React from "react";
 import { MainData } from "utils/Data";
 
 export const ProductsCard = () => {

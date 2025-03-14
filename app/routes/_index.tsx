@@ -1,5 +1,6 @@
 import type { MetaFunction } from "@remix-run/node";
 import { useEffect, useState } from "react";
+import Footer from "~/Components/Footer";
 import { Loadings } from "~/Components/Loading";
 import Navbar from "~/Components/NavBar";
 import Hero from "~/Pages/Hero";
@@ -17,7 +18,7 @@ export default function Index() {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 2500);
+    }, 1600);
   }, []);
   return (
     <>
@@ -27,6 +28,7 @@ export default function Index() {
         <div>
           <Navbar />
           <Hero/>
+          <Footer/>
         </div>
       )}
     </>

@@ -5,7 +5,8 @@ const Hero = () => {
     <>
       <div className="h-screen  flex justify-center items-center">
         <h1 className="text-4xl font-bold text-center">
-          Welcome to Bhusal Agrovet Center
+          <div className="text-red-500">Welcome</div>
+          <div className="text-indigo-500">To New Bhusal Agrovet Center</div>
         </h1>
       </div>
     </>
