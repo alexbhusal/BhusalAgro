@@ -1,14 +1,31 @@
-import { ProductsCard } from "~/Components/Products";
+import { useEffect, useState } from "react";
+import { Loads } from "~/Components/Animation/Loading";
+import Footer from "~/Components/Main/Footer";
+import Navbar from "~/Components/Main/NavBar";
+import { Product } from "~/Components/Main/Product";
 
 const Products = () => {
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+  });
   return (
     <>
-      <div className="flex justify-center items-center">
-        <h1 className="text-center font-semibold text-3xl m-5">Available Products</h1>
-      </div>
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-12 m-5">
-        <ProductsCard/>
-      </div>
+      {loading ? (
+        <>
+          <div className="h-screen flex justify-center items-center">
+            <Loads />
+          </div>
+        </>
+      ) : (
+        <>
+          <Navbar />
+          <Product />
+          <Footer />
+        </>
+      )}
     </>
   );
 };

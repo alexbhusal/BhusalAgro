@@ -18,8 +18,8 @@ export default function Navbar() {
           className="h-8 md:h-12"
             alt="NavLogo"
           />
-          <span className="self-center text-2xl font-semibold blatext-blackspace-nowrap text-black">
-            Bhusal Agrovet
+          <span className="hidden md:block self-center text-2xl font-semibold blatext-blackspace-nowrap text-black">
+            New Bhusal Agrovet Center
           </span>
         </Link>
         <button
@@ -55,21 +55,21 @@ export default function Navbar() {
           <ul className="  font-medium flex flex-col p-4 md:p-0 mt-4 border  rounded-lg  md:flex-row md:space-x-8 md:mt-5 md:border-0 ">
             <li>
               <Link
-                to=""
+                to="/"
                 className="block py-2 px-3 text-xl text-center md:text-2xl text-black  rounded-sm md:bg-transparent md:text-black md:p-0"
                 aria-current="page"
               >
                 Home
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 to="#about"
                 className="block py-2 px-3 text-xl text-center md:text-2xl text-black rounded-sm  md:hover:bg-transparent md:border-0 md:hover:text-red-500 md:p-0"
               >
                 About
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link
                 to="#services"
@@ -80,18 +80,18 @@ export default function Navbar() {
             </li>
             <li>
               <Link
-                to="/products"
-                className="block py-2 px-3 text-xl text-center md:text-2xl text-black rounded-sm   md:border-0 md:hover:text-red-500 md:p-0"
-              >
-                Products
-              </Link>
-            </li>
-            <li>
-              <Link
                 to="#contact"
                 className="block py-2 px-3 text-xl text-center  md:text-2xl text-black rounded-sm  md:hover:bg-transparent md:border-0 md:hover:text-red-500 md:p-0"
               >
                 Contact
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/products"
+                className="block py-2 px-3 text-xl text-center md:text-2xl text-black rounded-sm   md:border-0 md:hover:text-red-500 md:p-0"
+              >
+                Products
               </Link>
             </li>
           </ul>
