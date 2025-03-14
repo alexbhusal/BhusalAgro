@@ -2,6 +2,7 @@ import type { MetaFunction } from "@remix-run/node";
 import { useEffect, useState } from "react";
 import { Loadings } from "~/Components/Loading";
 import Navbar from "~/Components/NavBar";
+import Hero from "~/Pages/Hero";
 
 export const meta: MetaFunction = () => {
   return [
@@ -25,11 +26,7 @@ export default function Index() {
       ) : (
         <div>
           <Navbar />
-          <div className="h-screen  flex justify-center items-center">
-            <h1 className="text-4xl font-bold text-center">
-              Welcome to Bhusal Agrovet Center
-            </h1>
-          </div>
+          <Hero/>
         </div>
       )}
     </>

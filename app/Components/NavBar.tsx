@@ -80,10 +80,10 @@ export default function Navbar() {
             </li>
             <li>
               <Link
-                to="#skills"
+                to="/products"
                 className="block py-2 px-3 text-xl text-center md:text-2xl text-black rounded-sm   md:border-0 md:hover:text-red-500 md:p-0"
               >
-                Skills
+                Products
               </Link>
             </li>
             <li>
