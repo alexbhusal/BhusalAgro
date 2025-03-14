@@ -56,7 +56,7 @@ export default function Navbar() {
             <li>
               <Link
                 to=""
-                className="block py-2 px-3 text-xl md:text-2xl text-black  rounded-sm md:bg-transparent md:text-black md:p-0"
+                className="block py-2 px-3 text-xl text-center md:text-2xl text-black  rounded-sm md:bg-transparent md:text-black md:p-0"
                 aria-current="page"
               >
                 Home
@@ -65,7 +65,7 @@ export default function Navbar() {
             <li>
               <Link
                 to="#about"
-                className="block py-2 px-3 text-xl md:text-2xl text-black rounded-sm  md:hover:bg-transparent md:border-0 md:hover:text-red-500 md:p-0"
+                className="block py-2 px-3 text-xl text-center md:text-2xl text-black rounded-sm  md:hover:bg-transparent md:border-0 md:hover:text-red-500 md:p-0"
               >
                 About
               </Link>
@@ -73,7 +73,7 @@ export default function Navbar() {
             <li>
               <Link
                 to="#services"
-                className="block py-2 px-3 text-xl md:text-2xl text-black rounded-sm  md:hover:bg-transparent md:border-0 md:hover:text-red-500 md:p-0"
+                className="block py-2 px-3 text-xl text-center md:text-2xl text-black rounded-sm  md:hover:bg-transparent md:border-0 md:hover:text-red-500 md:p-0"
               >
                 Services
               </Link>
@@ -81,7 +81,7 @@ export default function Navbar() {
             <li>
               <Link
                 to="#skills"
-                className="block py-2 px-3 text-xl md:text-2xl text-black rounded-sm   md:hover:bg-black md:border-0 md:hover:text-red-500 md:p-0"
+                className="block py-2 px-3 text-xl text-center md:text-2xl text-black rounded-sm   md:border-0 md:hover:text-red-500 md:p-0"
               >
                 Skills
               </Link>
@@ -89,7 +89,7 @@ export default function Navbar() {
             <li>
               <Link
                 to="#contact"
-                className="block py-2 px-3 text-xl md:text-2xl text-black rounded-sm  md:hover:bg-transparent md:border-0 md:hover:text-red-500 md:p-0"
+                className="block py-2 px-3 text-xl text-center  md:text-2xl text-black rounded-sm  md:hover:bg-transparent md:border-0 md:hover:text-red-500 md:p-0"
               >
                 Contact
               </Link>
