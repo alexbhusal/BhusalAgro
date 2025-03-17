@@ -10,15 +10,15 @@ const Footer = () => {
                 <img src="/favicon.ico" className="h-8" alt="Flowbite Logo" />
                 <span className="self-center text-2xl font-semibold whitespace-nowrap">NBAC</span>
             </a>
-            <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0">
+            <ul className="flex flex-wrap items-center mb-6 text-base font-medium text-gray-500 sm:mb-0">
                 <li>
                     <a href="#" className="hover:underline me-4 md:me-6">About</a>
                 </li>
                 <li>
-                    <a href="#" className="hover:underline me-4 md:me-6">Privacy Policy</a>
+                    <a href="#services" className="hover:underline me-4 md:me-6">Services</a>
                 </li>
                 <li>
-                    <a href="#" className="hover:underline me-4 md:me-6">Licensing</a>
+                    <a href="/products" className="hover:underline me-4 md:me-6">Products</a>
                 </li>
                 <li>
                     <a href="#" className="hover:underline">Contact</a>
@@ -26,10 +26,15 @@ const Footer = () => {
             </ul>
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
-        <span className="block text-sm text-gray-500 sm:text-center">
+        <span className="block text-xl text-gray-500 sm:text-center">
             © {new Date().getFullYear()} <a href="#" className="hover:underline">NBAC™</a>. All Rights Reserved.
         </span>
+        <div className="block text-xl text-gray-500 sm:text-center">
+            <span >Devloped By </span>
+            <a href="https://bhuvanbhusal.info.np"target='_blank' className='text-red-400 italic'>Alex Bhusal</a>
+        </div>
     </div>
+
 </footer>
 
     </>
