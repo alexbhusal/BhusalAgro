@@ -13,11 +13,8 @@ const Contact = () => {
             <h2 className="text-xl md:text-3xl font-semibold mb-4 ">
               Our Contact
             </h2>
-            <p className="mb-2 text-base md:text-2xl ">
-              Address: New Bhusal Argovet Center
-            </p>
             <p className="mb-2 text-base md:text-2xl">
-              Location: Taramarga, Sandhikarka, Arghakhanchi, Nepal
+              Address: TInkune Chowk, Sandhikharka-01, Arghakhanchi, Nepal
             </p>
             <p className="mb-2 text-base md:text-2xl">
               <a href="tel:+97777420585">Phone: 077-420585</a>
