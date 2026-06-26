@@ -14,7 +14,7 @@ const Contact = () => {
               Our Contact
             </h2>
             <p className="mb-2 text-base md:text-2xl">
-              Address: TInkune Chowk, Sandhikharka-01, Arghakhanchi, Nepal
+              Address: Tinkune Chowk, Sandhikharka-01, Arghakhanchi, Nepal
             </p>
             <p className="mb-2 text-base md:text-2xl">
               <a href="tel:+97777420585">Phone: 077-420585</a>
